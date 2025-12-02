@@ -1,7 +1,4 @@
 import days.*;
-import days.day01.Day01;
-import days.day02.Day02;
-
 import java.util.Scanner;
 
 public class Main {
