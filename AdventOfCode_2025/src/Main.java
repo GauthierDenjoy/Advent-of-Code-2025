@@ -1,4 +1,8 @@
 import days.*;
+import days.day01.Day01;
+import days.day02.Day02;
+import days.day03.Day03;
+
 import java.util.Scanner;
 
 public class Main {
@@ -6,11 +10,16 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n=== Advent of Code Runner ===");
-            System.out.println("Select a day to run (or 0 to exit):");
-            System.out.println("1 - Day 1");
-            System.out.println("2 - Day 2");
-            System.out.print("\nEnter choice: ");
+            System.out.println("\n===== Advent of Code Runner =====");
+            System.out.println("Select a day (0 to exit):\n");
+
+            for (int i = 1; i <= 25; i++) {
+                System.out.printf("%2d ", i);
+                if (i % 5 == 0) System.out.println(); // 5 per row, 5 rows total
+            }
+
+            System.out.println("\n\n0 - Exit");
+            System.out.print("Choice: ");
 
             int choice = scanner.nextInt();
             System.out.println();
@@ -35,6 +44,7 @@ public class Main {
         return switch (day) {
             case 1 -> new Day01();
             case 2 -> new Day02();
+            case 3 -> new Day03();
             default -> null;
         };
     }

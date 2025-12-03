@@ -12,7 +12,8 @@ public class Day02 extends DayChallenge {
 
     @Override
     protected void displayMenu() {
-        System.out.println("1 - Your Version");
+        System.out.println("1 - Part 1");
+        System.out.println("2 - Part 2");
         System.out.print("Enter choice: ");
     }
 

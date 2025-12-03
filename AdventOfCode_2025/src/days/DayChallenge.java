@@ -14,7 +14,7 @@ public abstract class DayChallenge {
 
     protected DayChallenge(int dayNumber) {
         this.dayNumber = dayNumber;
-        this.dayFolder = String.format("src/days/day%02d/", dayNumber);
+        this.dayFolder = String.format("AdventOfCode_2025/src/days/day%02d/", dayNumber);
     }
 
     public void run() {
