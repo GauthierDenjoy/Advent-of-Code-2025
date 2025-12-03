@@ -19,16 +19,19 @@ public class Day01 extends DayChallenge {
     @Override
     protected void executeChoice(int choice) {
         switch (choice) {
-            case 1 -> runYourVersion();
+            case 1-> runPartOne();
+            case 2 -> runPartTwo();
             default -> invalidChoice();
         }
     }
 
-    /* =====================================================================
-       ==========  YOUR VERSION (simple add + wrap + zero counting)  ========
-       ===================================================================== */
 
-    private void runYourVersion() {
+    private void runPartOne() {
+            System.out.println("Ha ! I reworked this part before deciding to do this project ");
+            System.out.println("UwU");
+    }
+    
+    private void runPartTwo() {
         List<Integer> values = readValuesConverted();
         int counter = 50;
         int password = 0;

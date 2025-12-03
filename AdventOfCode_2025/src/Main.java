@@ -15,7 +15,7 @@ public class Main {
 
             for (int i = 1; i <= 25; i++) {
                 System.out.printf("%2d ", i);
-                if (i % 5 == 0) System.out.println(); // 5 per row, 5 rows total
+                if (i % 5 == 0) System.out.println();
             }
 
             System.out.println("\n\n0 - Exit");
