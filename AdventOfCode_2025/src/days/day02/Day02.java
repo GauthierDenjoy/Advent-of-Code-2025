@@ -4,6 +4,7 @@ import days.DayChallenge;
 import java.util.ArrayList;
 import java.util.List;
 
+@SuppressWarnings("unused")
 public class Day02 extends DayChallenge {
 
     public Day02() {
@@ -11,23 +12,7 @@ public class Day02 extends DayChallenge {
     }
 
     @Override
-    protected void displayMenu() {
-        System.out.println("1 - Part 1");
-        System.out.println("2 - Part 2");
-        System.out.print("Enter choice: ");
-    }
-
-    @Override
-    protected void executeChoice(int choice) {
-        switch (choice) {
-            case 1 -> runPartOne();
-            case 2 -> runPartTwo();
-            default -> invalidChoice();
-        }
-    }
-
-
-    private void runPartOne() {
+    protected void runPartOne() {
         List<Long> values = readValuesConverted();
         List<String> stringValues = values.stream()
                 .map(String::valueOf)
@@ -49,7 +34,8 @@ public class Day02 extends DayChallenge {
 
     }
 
-    private void runPartTwo() {
+    @Override
+    protected void runPartTwo() {
         List<Long> values = readValuesConverted();
         List<String> stringValues = values.stream()
                 .map(String::valueOf)

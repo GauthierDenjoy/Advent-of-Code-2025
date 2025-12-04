@@ -27,9 +27,6 @@ public abstract class DayChallenge {
         executeChoice(choice);
     }
 
-    protected abstract void displayMenu();
-
-    protected abstract void executeChoice(int choice);
 
     protected List<String> readInputFile(String filename) {
         List<String> lines = new ArrayList<>();
@@ -44,6 +41,23 @@ public abstract class DayChallenge {
         }
         return lines;
     }
+
+    protected void displayMenu() {
+        System.out.println("1 - Part 1");
+        System.out.println("2 - Part 2");
+        System.out.print("Enter choice: ");
+    }
+
+    protected void executeChoice(int choice) {
+        switch (choice) {
+            case 1 -> runPartOne();
+            case 2 -> runPartTwo();
+            default -> invalidChoice();
+        }
+    }
+    protected abstract void runPartOne();
+
+    protected abstract void runPartTwo();
 
     protected List<String> readInputFile() {
         return readInputFile("input.txt");

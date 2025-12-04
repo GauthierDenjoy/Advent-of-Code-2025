@@ -5,29 +5,15 @@ import days.DayChallenge;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Day03  extends DayChallenge {
+@SuppressWarnings("unused")
+public class Day03 extends DayChallenge {
 
     public Day03() {
         super(3);
     }
 
     @Override
-    protected void displayMenu() {
-        System.out.println("1 - Part 1");
-        System.out.println("2 - Part 2");
-        System.out.print("Enter choice: ");
-    }
-
-    @Override
-    protected void executeChoice(int choice) {
-        switch (choice) {
-            case 1 -> runPartOne();
-            case 2 -> runPartTwo();
-            default -> invalidChoice();
-        }
-    }
-
-    public void runPartOne() {
+    protected void runPartOne() {
         var matrix = readValuesMatrix();
         System.out.println("Part 1" + readValuesMatrix());
         long result = 0;
@@ -57,7 +43,8 @@ public class Day03  extends DayChallenge {
         System.out.println("Result: " + result);
     }
 
-    public void runPartTwo() {
+    @Override
+    protected void runPartTwo() {
         var matrix = readValuesMatrix();
         long result = 0;
 
