@@ -1,4 +1,4 @@
-﻿package days.day03;
+package days.day03;
 
 import days.DayChallenge;
 

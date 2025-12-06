@@ -1,6 +1,6 @@
 import days.DayChallenge;
 
-public static void main(String[] args) {
+void main() {
     Scanner scanner = new Scanner(System.in);
 
     while (true) {

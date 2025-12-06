@@ -1,6 +1,7 @@
-﻿package days.day04;
+package days.day04;
 
 import days.DayChallenge;
+
 import java.util.ArrayList;
 import java.util.List;
 
