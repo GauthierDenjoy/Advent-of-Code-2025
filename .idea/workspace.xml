@@ -4,25 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46966625-808e-417d-bd4d-f21d6822d7ba" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/DayChallenge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day01/Day01$ChatGPTSolver$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day01/Day01$ChatGPTSolver$Rotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day01/Day01$ChatGPTSolver$RotationResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day01/Day01$ChatGPTSolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day01/Day01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day01/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day02/Day02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/Advent-of-Code-2025/days/day02/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/untitled3/Main$Direction.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/untitled3/Main$Rotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/untitled3/Main$RotationResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/untitled3/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/out/production/untitled3/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day03/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day03/Day03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day04/Day04.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day04/Day04.java" afterDir="false" />
+    <list default="true" id="46966625-808e-417d-bd4d-f21d6822d7ba" name="Changes" comment="yea finally on personal computar">
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day05/Day05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +35,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
@@ -102,11 +87,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1765030340296</updated>
-      <workItem from="1765030341655" duration="1242000" />
+      <workItem from="1765030341655" duration="5605000" />
     </task>
+    <task id="LOCAL-00001" summary="yea finally on personal computar">
+      <option name="closed" value="true" />
+      <created>1765031645931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765031645931</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="yea finally on personal computar" />
+    <option name="LAST_COMMIT_MESSAGE" value="yea finally on personal computar" />
   </component>
 </project>
