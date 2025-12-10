@@ -9,7 +9,7 @@ import java.util.List;
 public class Day04 extends DayChallenge {
 
     public Day04() {
-        super(4);
+        super();
     }
 
     @Override

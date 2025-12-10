@@ -12,9 +12,15 @@ public abstract class DayChallenge {
     protected final int dayNumber;
     protected final String dayFolder;
 
-    protected DayChallenge(int dayNumber) {
-        this.dayNumber = dayNumber;
+    protected DayChallenge() {
+        this.dayNumber = extractDayNumberFromSubclass();
         this.dayFolder = String.format("AdventOfCode_2025/src/days/day%02d/", dayNumber);
+    }
+
+    private int extractDayNumberFromSubclass() {
+        String className = this.getClass().getSimpleName();
+        String numberStr = className.replaceAll("[^0-9]", "");
+        return Integer.parseInt(numberStr);
     }
 
     public void run() {
@@ -27,21 +33,6 @@ public abstract class DayChallenge {
         executeChoice(choice);
     }
 
-
-    protected List<String> readInputFile(String filename) {
-        List<String> lines = new ArrayList<>();
-        String filepath = dayFolder + filename;
-        try (BufferedReader br = new BufferedReader(new FileReader(filepath))) {
-            String line;
-            while ((line = br.readLine()) != null) {
-                lines.add(line);
-            }
-        } catch (IOException e) {
-            System.err.println("Error reading file '" + filepath + "': " + e.getMessage());
-        }
-        return lines;
-    }
-
     protected void displayMenu() {
         System.out.println("1 - Part 1");
         System.out.println("2 - Part 2");
@@ -52,18 +43,26 @@ public abstract class DayChallenge {
         switch (choice) {
             case 1 -> runPartOne();
             case 2 -> runPartTwo();
-            default -> invalidChoice();
+            default -> System.out.println("Invalid choice.");
+
         }
     }
+
     protected abstract void runPartOne();
 
     protected abstract void runPartTwo();
 
     protected List<String> readInputFile() {
-        return readInputFile("input.txt");
-    }
-
-    protected void invalidChoice() {
-        System.out.println("Invalid choice.");
+        List<String> lines = new ArrayList<>();
+        String filepath = dayFolder + "input.txt";
+        try (BufferedReader br = new BufferedReader(new FileReader(filepath))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                lines.add(line);
+            }
+        } catch (IOException e) {
+            System.err.println("Error reading file '" + filepath + "': " + e.getMessage());
+        }
+        return lines;
     }
 }

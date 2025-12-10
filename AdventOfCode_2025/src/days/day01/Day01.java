@@ -8,7 +8,7 @@ import java.util.List;
 public class Day01 extends DayChallenge {
 
     public Day01() {
-        super(1);
+        super();
     }
 
     @Override

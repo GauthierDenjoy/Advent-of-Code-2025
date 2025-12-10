@@ -5,8 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46966625-808e-417d-bd4d-f21d6822d7ba" name="Changes" comment="yea finally on personal computar">
-      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day05/Day05.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/Day0X.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day05/Range.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day05/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day06/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day06/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day07/Day07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/DayChallenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/DayChallenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day01/Day01.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day01/Day01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day02/Day02.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day02/Day02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day03/Day03.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day03/Day03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day04/Day04.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day04/Day04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day05/Day05.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day05/Day05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day06/Day06.java" beforeDir="false" afterPath="$PROJECT_DIR$/AdventOfCode_2025/src/days/day06/Day06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/DayChallenge.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/DayChallenge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day01/Day01.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day01/Day01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day02/Day02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day02/Day02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day03/Day03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day03/Day03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day04/Day04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Advent-of-Code-2025/days/day04/Day04.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +41,28 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="e731386d0ff9e8d6ccf671d47e5c9589c47327dc" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Gdenjoy"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/GauthierDenjoy/Advent-of-Code-2025.git",
+    "accountId": "0a231589-a2cf-4483-85d1-7c60b888e705"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="36TV2H0FhMKuYQZjKZyPxPS3vRv" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -40,6 +77,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gdenjoy/IdeaProjects/Advent-of-Code-2025/AdventOfCode_2025/src/days/day06",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,8 +86,20 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gdenjoy\IdeaProjects\Advent-of-Code-2025\AdventOfCode_2025\src\days\day06" />
+      <recent name="C:\Users\gdenjoy\IdeaProjects\Advent-of-Code-2025\AdventOfCode_2025\src\days\day05" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="days.day07" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="--enable-native-access" value="ALL-UNNAMED " />
+      </envs>
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Advent-of-Code-2025" />
@@ -69,17 +119,19 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.28238.7" />
-        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-IU-252.28238.7" />
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.21565.193" />
+        <option value="bundled-js-predefined-d6986cc7102b-e768b9ed790e-JavaScript-IU-243.21565.193" />
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="46966625-808e-417d-bd4d-f21d6822d7ba" name="Changes" comment="" />
@@ -88,6 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1765030340296</updated>
       <workItem from="1765030341655" duration="5605000" />
+      <workItem from="1765357301370" duration="12967000" />
     </task>
     <task id="LOCAL-00001" summary="yea finally on personal computar">
       <option name="closed" value="true" />

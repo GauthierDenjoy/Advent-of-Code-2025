@@ -4,17 +4,11 @@ void main() {
     Scanner scanner = new Scanner(System.in);
 
     while (true) {
-        System.out.println("\n===== Advent of Code Runner =====");
-        System.out.println("Select a day (0 to exit):\n");
+        System.out.println("\n===== Advent of Code 2025 Runner =====");
+        System.out.println("(This year is a short Advent of code)\n");
+        System.out.println("Select a day from 1 to 12 (0 to exit):\n");
 
-        for (int i = 1; i <= 25; i++) {
-            System.out.printf("%2d ", i);
-            if (i % 5 == 0) System.out.println();
-        }
-
-        System.out.println("\n\n0 - Exit");
         System.out.print("Choice: ");
-
         int choice = scanner.nextInt();
         System.out.println();
 
@@ -34,7 +28,6 @@ void main() {
     scanner.close();
 }
 
-//this main should be static
 private static DayChallenge getDayChallenge(int day) {
     try {
         String className = String.format("days.day%02d.Day%02d", day, day);
